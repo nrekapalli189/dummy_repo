@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git clone'){
             steps {
-                git 'https://github.com/nrekapalli189/dummy_repo.git'
+              git branch: 'main', url: 'https://github.com/nrekapalli189/dummy_repo.git''
             }
         }
                 
